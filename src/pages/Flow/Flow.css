@@ -1,0 +1,50 @@
+.flow {
+  background-color: #161a1a;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  padding: 0% 2%;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+.flowicon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5%;
+}
+.icontext {
+  display: flex;
+}
+.icontext span {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 15px;
+  font-weight: bold;
+}
+.flow-text {
+  margin-left: 8%;
+}
+
+img {
+  height: 90vh;
+}
+
+.forgot {
+  align-items: center;
+  height: 30vh;
+  padding: 4% 5% 0% 5%;
+  border: 1px solid #000;
+  width: 80%;
+  margin: 5% auto 8% auto;
+  border-radius: 5px;
+}
+
+.forgot button {
+  background-color: rgb(12, 130, 233);
+  border: none;
+  height: 5vh;
+  width: 100%;
+  color: #fff;
+  border-radius: 7px;
+}

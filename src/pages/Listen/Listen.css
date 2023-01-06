@@ -1,0 +1,24 @@
+.Listen {
+  background-image: url("../../assets/Listen_anytime.png");
+  background-size: cover;
+  height: 60vh;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+
+.Listen_anytime {
+  padding-top: 12%;
+  padding-left: 13%;
+}
+
+h2 {
+  margin-top: 1%;
+  font-weight: 900;
+  font-size: 27px;
+}
+
+p {
+  font-size: 15.5px;
+  margin-top: 1%;
+}

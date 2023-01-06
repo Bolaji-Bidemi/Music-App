@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  align-items: center;
+  background-size: cover;
+  background-color: #3a3a3d;
+  margin: 0% 2%;
+  height: 10vh;
+  width: 95%;
+  border-radius: 5px;
+  /* top: 100vh; */
+  bottom: 0px;
+}
+
+.playbarleft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.playbarleftsonginfo {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 60%;
+  margin-left: 15px;
+}
+
+.playbarleftsonginfo img {
+  height: 5vh;
+}
+
+.artistInfo {
+  padding-left: 12%;
+}
+
+.playbarLeftButton {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.playbarLeftButton span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+}
+
+.playbarLeftButton span:nth-child(2) {
+  color: #2dceef;
+  font-size: 20px;
+}
+
+.playbarleftcontrol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.controlButton {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  font-size: 25px;
+  color: white;
+}
+
+.playbarRightButton img {
+  height: 2vh;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  padding-top: 1%;
+}
+
+.progress p {
+  color: white;
+}
+
+.playbarRightButton {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15%;
+}

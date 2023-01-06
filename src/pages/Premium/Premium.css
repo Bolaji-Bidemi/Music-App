@@ -1,0 +1,210 @@
+.premium {
+  background-color: #161a1a;
+  height: 100vh;
+  color: #ffffff;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+.premium_container {
+  text-align: center;
+  width: 100vw;
+  margin-top: -2%;
+}
+
+.premium_container h2 {
+  padding-top: 5%;
+  font-size: 35px;
+}
+.price-colored {
+  color: #646cff;
+}
+.premium_list {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0% auto;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.premium_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.premium_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #363535;
+  border-radius: 50%;
+}
+
+.premium_img_container img {
+  width: 60px;
+  height: 60px;
+}
+
+.premiumImg {
+  width: 50px;
+  height: 50px;
+}
+.premium_section h3 {
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.premium_section p {
+  padding: 0%;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.subscribe_container {
+  height: 70vh;
+  margin-top: 5%;
+}
+
+.subscribe_container p {
+  text-align: center;
+  padding-bottom: 1%;
+}
+li {
+  list-style: none;
+}
+
+.subscribe_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 34%;
+}
+
+.subscribe_section div {
+  width: 47%;
+  height: 33vh;
+  border-radius: 8px;
+  padding-top: 3%;
+}
+
+.subscribe_section div:first-child {
+  border: 3px solid #fff;
+}
+
+.subscribe_section div:nth-child(2) {
+  border: 3px solid;
+  border-left-color: #35eefbca;
+  border-top-color: #2d9bef;
+  border-right-color: #9b2def;
+  border-bottom-color: #2d9bef;
+}
+
+.musicbox_premium {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 35%;
+  font-size: 9.5px;
+  width: 100%;
+}
+.musicbox_premium button {
+  margin-top: 5%;
+  width: 180px;
+  border-radius: 12px;
+}
+
+.musicbox_premium button:nth-child(2) {
+  background-image: linear-gradient(to right, #35eefbca, #2d9bef, #9b2def);
+  border: none;
+  outline: none;
+}
+
+.musicbox_premium button:nth-child(1) {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.free-title {
+  padding-left: 20px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.free-icon {
+  /* margin-left: -25px; */
+  height: 4vh;
+  width: 20%;
+  position: relative;
+  top: -7px;
+}
+
+.free-text {
+  margin-top: 40px;
+  font-size: 12px;
+  display: flex;
+}
+
+.free-text1 {
+  font-size: 12px;
+  display: flex;
+}
+
+.free-text2 {
+  font-size: 12px;
+  display: flex;
+}
+
+.free-text3 {
+  display: flex;
+  font-size: 12px;
+}
+
+.prem-title {
+  padding-left: 20px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+#prem-title-sub {
+  font-size: 10px;
+  /* font-weight: bold; */
+  color: #565555;
+}
+
+.premium-icon {
+  /* margin-left: -25px; */
+  height: 4vh;
+  width: 20%;
+  position: relative;
+  top: -7px;
+}
+
+.prem-text {
+  margin-top: 10px;
+  display: flex;
+  font-size: 12px;
+}
+
+.prem-text1 {
+  display: flex;
+  font-size: 12px;
+}
+
+.prem-text2 {
+  display: flex;
+  font-size: 12px;
+}
+
+.prem-text3 {
+  display: flex;
+  font-size: 12px;
+}

@@ -4,7 +4,7 @@ import styles from "./FlowSection.module.css";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AddIcon from "@mui/icons-material/Add";
 import { apiGet } from "../../utils/api";
-import { toast } from "react-toastify";
+import { toast } from "react-toastify"; 
 
 // mockdata
 const mockData = [

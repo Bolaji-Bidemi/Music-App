@@ -61,13 +61,13 @@
 .premium_section h3 {
   padding-top: 10px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-right: 20px;
+  /* align-items: center; */
+  /* text-align: center; */
+  margin-left: 10px;
   font-size: 14px;
 }
 .premium_section p {
-  padding: 0%;
+  padding: 0 5px;
   justify-content: center;
   font-size: 11px;
 }
